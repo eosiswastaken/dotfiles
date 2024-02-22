@@ -22,6 +22,8 @@ feel free to copy my dotfiles (even though they are tailored to my needs), or ta
 
 want more info about my uses and setup ? use the `setup` command on my [personnal webpage](https://eosis.space)
 
+
+<sub> (dotfiles managed by [stow](https://www.youtube.com/watch?v=y6XCebnB9gs&t=9s)) </sub>
 <br>
 
 
