@@ -51,3 +51,6 @@ style = {shape = "Beam",blinking = "Always"}
 bindings = [
 { key = "Return", mods = "Control", action = "SpawnNewInstance" }]
 
+[shell]
+program = "/usr/bin/zsh"
+
