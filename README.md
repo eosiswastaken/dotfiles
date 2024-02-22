@@ -2,7 +2,7 @@
 
 <br>
 
-![image](https://github.com/eosiswastaken/eosis.space/raw/main/assets/github/themes.gif)
+![image](https://raw.githubusercontent.com/eosiswastaken/dotfiles/main/.github/rice.gif)
 
 <br>
 
