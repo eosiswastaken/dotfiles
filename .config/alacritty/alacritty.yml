@@ -1,0 +1,27 @@
+window:
+  padding:
+    x: 5
+    y: 5
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+background-opacity: 0.5
+
+
+[colors.normal]
+black = "#1b1c33"
+red = "#c6505a"
+green = "#4e7026"
+yellow = "#df892e"
+blue = "#335ccc"
+magenta = "#7b53ad"
+cyan = "#335ccc"
+white = "#bfbfbf"
+
+[colors.primary]
+background = "#11121D"
+foreground = "#a9b1d6"
+
