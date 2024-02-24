@@ -1,0 +1,41 @@
+[flags]
+show_table_scroll_position = true
+enable_gpu_memory = true
+left_legend = false
+# These are flags around the process widget.
+
+[[row]]
+  ratio=30
+  [[row.child]]
+  type="cpu"
+[[row]]
+    ratio=30
+    [[row.child]]
+      ratio=3
+      [[row.child.child]]
+        type="temp"
+      [[row.child.child]]
+        type="disk"
+    [[row.child]]
+      ratio=4
+      type="mem"
+[[row]]
+  ratio=30
+  [[row.child]]
+    type="net"
+  [[row.child]]
+    type="proc"
+    default=true
+
+
+[processes]
+columns = ["PID", "Name", "CPU%", "Mem%","User"]
+
+[temp_filter]
+is_list_ignored = true
+list = ["sensor", "Package"]
+regex = false
+case_sensitive = false
+whole_word = false
+
+
