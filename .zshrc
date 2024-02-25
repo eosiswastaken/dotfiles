@@ -8,7 +8,7 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 alias cls=clear
 alias sus="shutdown now"
-alias wtf="reboot now"
+alias wtf="reboot"
 alias meow="echo 'mrrrrp'"
 alias ls="ls --color"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
