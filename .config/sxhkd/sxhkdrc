@@ -7,6 +7,6 @@ alt + Return
 	alacritty
 
 # program launcher
-alt + @space
+alt + space
 	rofi -show drun
 
