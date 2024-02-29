@@ -37,10 +37,10 @@ this is the list of packages I use, not all of them have config files.
 ```bash
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
-sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tree
+sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tmux entr ripgrep
 ```
 
-not installable with `apt` : obsidian starship pico-8 spotify tldr eza tmux
+not installable with `apt` : obsidian starship pico-8 spotify tldr eza
 set up web apps : todoist google-calendar
 
 ⚠️ some packages will need to be set up manually before copying dotfiles
