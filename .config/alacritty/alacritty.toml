@@ -1,5 +1,5 @@
 [window]
-opacity = 0.80
+opacity = 0.82
 decorations = "Full"
 dimensions = { columns = 120, lines = 36}
 
@@ -15,34 +15,35 @@ style = "Bold"
 x = 5
 y = 5
 
-# Colors (Ayu Dark)
+# Colors (Gruvbox Material Hard Dark)
 
 # Default colors
 [colors.primary]
-background = '#0A0E14'
-foreground = '#B3B1AD'
+background = '#1d2021'
+foreground = '#d4be98'
 
 # Normal colors
 [colors.normal]
-black   = '#01060E'
-red     = '#EA6C73'
-green   = '#91B362'
-yellow  = '#F9AF4F'
-blue    = '#53BDFA'
-magenta = '#FAE994'
-cyan    = '#90E1C6'
-white   = '#C7C7C7'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
 
-# Bright colors
+# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#686868'
-red     = '#F07178'
-green   = '#C2D94C'
-yellow  = '#FFB454'
-blue    = '#59C2FF'
-magenta = '#FFEE99'
-cyan    = '#95E6CB'
-white   = '#FFFFFF'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
 
 [cursor]
 style = {shape = "Beam",blinking = "Always"}
