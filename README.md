@@ -37,7 +37,7 @@ this is the list of packages I use, not all of them have config files.
 ```bash
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
-sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tmux ripgrep tree entr peek
+sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tmux ripgrep tree entr peek syncthing
 ```
 
 not installable with `apt` : obsidian starship pico-8 spotify tldr n
