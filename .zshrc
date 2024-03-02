@@ -16,3 +16,6 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias superlog="git log --graph --oneline --decorate --all"
 alias la="ls -lah"
+export TERM=xterm-256color
+if [ "$TMUX" = "" ]; then tmux; fi
+
