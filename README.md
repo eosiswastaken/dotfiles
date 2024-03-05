@@ -46,6 +46,8 @@ set up web apps : todoist google-calendar
 
 ⚠️ some packages will need to be set up manually before copying dotfiles
 
+theme : gruvbox (everforest / ayu)
+
 <br>
 
 ---
