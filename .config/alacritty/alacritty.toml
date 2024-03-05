@@ -1,8 +1,10 @@
+# window options : opacity, border and title bar, and custom dimensions (in lines)
 [window]
 opacity = 0.82
 decorations = "Full"
 dimensions = { columns = 120, lines = 36}
 
+# normal and bold fonts
 [font.normal]
 family = "FiraCode Nerd Font"
 style = "Regular"
@@ -11,6 +13,7 @@ style = "Regular"
 family = "FiraCode Nerd Font"
 style = "Bold"
 
+# window padding
 [window.padding]
 x = 5
 y = 5
@@ -44,13 +47,43 @@ magenta = '#d3869b'
 cyan    = '#89b482'
 white   = '#d4be98'
 
-
+# custom cursor shape
 [cursor]
 style = {shape = "Beam",blinking = "Always"}
 
-[keyboard]
-bindings = [
-{ key = "Return", mods = "Control", action = "SpawnNewInstance" }]
-
+# set default shell to zsh
 [shell]
 program = "/usr/bin/zsh"
+
+
+
+####################################
+# Colors (Everforest Dark)
+
+# Default colors
+#[colors.primary]
+#background = '#2d353b'
+#foreground = '#d3c6aa'
+
+# Normal colors
+#[colors.normal]
+#black   = '#475258'
+#red     = '#e67e80'
+#green   = '#a7c080'
+#yellow  = '#dbbc7f'
+#blue    = '#7fbbb3'
+#magenta = '#d699b6'
+#cyan    = '#83c092'
+#white   = '#d3c6aa'
+
+# Bright colors
+#[colors.bright]
+#black   = '#475258'
+#red     = '#e67e80'
+#green   = '#a7c080'
+#yellow  = '#dbbc7f'
+#blue    = '#7fbbb3'
+#magenta = '#d699b6'
+#cyan    = '#83c092'
+#white   = '#d3c6aa'
+######################################

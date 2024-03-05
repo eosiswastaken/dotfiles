@@ -1,9 +1,10 @@
+# general settings
 [flags]
 show_table_scroll_position = true
 enable_gpu_memory = true
 left_legend = false
-# These are flags around the process widget.
 
+# custom btm layout
 [[row]]
   ratio=30
   [[row.child]]
@@ -27,10 +28,11 @@ left_legend = false
     type="proc"
     default=true
 
-
+# only show specified columns (too much info by default)
 [processes]
 columns = ["PID", "Name", "CPU%", "Mem%","User"]
 
+# ignore some repeated temperature sensors
 [temp_filter]
 is_list_ignored = true
 list = ["sensor", "Package"]

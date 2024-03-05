@@ -10,3 +10,6 @@ alt + Return
 alt + space
 	rofi -show drun
 
+# restart polybar
+alt + BackSpace
+	killall polybar && /home/eosis/.config/polybar/launch.sh &

@@ -1,21 +1,28 @@
 # Lines configured by zsh-newuser-install
+# History file settings
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
-# End of lines configured by zsh-newuser-install
+
+# Init plugins
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Aliases
 alias cls=clear
 alias sus="shutdown now"
 alias wtf="reboot"
 alias meow="echo 'mrrrrp'"
 alias ls="ls --color"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 alias superlog="git log --graph --oneline --decorate --all"
 alias la="ls -lah"
+
+# Set colors to xterm to fix tmux colors
 export TERM=xterm-256color
+
+# Launch tmux when opening Alacritty
 if [ "$TMUX" = "" ]; then tmux; fi
 
