@@ -1,8 +1,8 @@
 ; colors (custom)
 [colors]
-base = #0d1017
 transparent = #00
-text = #ffffff
+text_light = #fffafa
+text_dark = #1b1c33
 accent = #800d1017
 
 
@@ -35,7 +35,7 @@ scroll-down = next
 
 ; bar colors
 background = ${colors.transparent}
-foreground = ${colors.text}
+foreground = ${colors.text_dark}
 
 ; fonts (text will use font-0, polybar will search one after another when trying to display a glyph)
 font-0 = "FiraCode Nerd Font:style=Regular:size=10;2"
