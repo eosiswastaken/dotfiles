@@ -26,3 +26,7 @@ export TERM=xterm-256color
 # Launch tmux when opening Alacritty
 if [ "$TMUX" = "" ]; then tmux; fi
 
+# Android env variables for React Native
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
