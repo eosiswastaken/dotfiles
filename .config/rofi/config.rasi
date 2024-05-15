@@ -8,12 +8,12 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #1e1e2e80;
-  bg-alt: #585b7080;
-  bg-selected: #31324480;
+  bg: #f2e5bc80;
+  bg-alt: #a8998480;
+  bg-selected: #92837480;
 
-  fg: #cdd6f4;
-  fg-alt: #7f849c;
+  fg: #282828;
+  fg-alt: #3c3836;
 
   
   border: 0;
