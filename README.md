@@ -48,6 +48,8 @@ set up web apps : todoist google-calendar
 
 theme : gruvbox (everforest / ayu)
 
+https://github.com/ycatsh/boring-fox/tree/main
+
 <br>
 
 ---
