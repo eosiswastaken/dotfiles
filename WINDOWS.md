@@ -30,6 +30,8 @@ steam voicemod translucenttb obs firefox icloud modrinth gog epicgames streamdec
 
 theme : gruvbox material dark / light medium (ayu light)
 
+font : monocraft NF
+
 <br>
 
 ---
