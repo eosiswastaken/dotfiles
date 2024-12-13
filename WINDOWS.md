@@ -25,7 +25,7 @@ this is the list of software I use.
 
 ```bash
 steam voicemod translucenttb obs firefox icloud modrinth gog epicgames streamdeck discord battlenet volanta riot picoconnect multimc
-7zip teracopy flowlauncher blender vscode figma windowsterminal obsidian git vcvrack vital choco tableplus starship bitwarden powertoys npm
+7zip teracopy flowlauncher blender vscode figma windowsterminal obsidian git vcvrack vital choco tableplus starship bitwarden powertoys npm nodejs
 ```
 
 theme : gruvbox material dark / light medium (ayu light)
