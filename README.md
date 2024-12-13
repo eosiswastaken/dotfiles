@@ -18,10 +18,10 @@
 </a>
 </p>
 
-this repo is where I keep a backup of all my dotfiles, and config files for various software I use. I also keep a list of packages I installed and a quickstart guide, so that my whole development toolchain can be as os-agnostic as it can be.
+this repo is where I keep a backup of all my dotfiles, and config files for various software I use.
 feel free to copy my dotfiles (even though they are tailored to my needs), or take some bits for yourself.
 
-want more info about my uses and setup ? use the `setup` command on my [personnal webpage](https://eosis.space)
+more info ? use the `setup` command on my [personnal webpage](https://eosis.space)
 
 
 <sub> (dotfiles managed by [stow](https://www.youtube.com/watch?v=y6XCebnB9gs&t=9s)) </sub>
@@ -37,18 +37,12 @@ this is the list of packages I use, not all of them have config files.
 ```bash
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
-sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tmux ripgrep tree entr peek syncthing
+sudo apt install stow alacritty sxhkd polybar bottom rofi zsh code zoxide zsh-autosuggestions zsh-syntax-highlighting firefox vlc vim discord tmux ripgrep tree entr peek
 ```
 
-not installable with `apt` : obsidian starship pico-8 spotify tldr n
+not installable with `apt` : obsidian starship pico-8 tldr n
 
-set up web apps : todoist google-calendar
-
-⚠️ some packages will need to be set up manually before copying dotfiles
-
-theme : gruvbox (everforest / ayu)
-
-https://github.com/ycatsh/boring-fox/tree/main
+theme : gruvbox material dark / light medium (ayu light)
 
 <br>
 
