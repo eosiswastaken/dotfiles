@@ -24,7 +24,7 @@ more info ? use the `setup` command on my [personnal webpage](https://eosis.spac
 this is the list of software I use.
 
 ```bash
-steam voicemod translucenttb obs firefox icloud modrinth gog epicgames streamdeck discord battlenet volanta riot picoconnect multimc
+steam voicemod translucenttb obs firefox icloud modrinth gog epicgames streamdeck discord battlenet volanta riot picoconnect multimc vencord
 7zip teracopy flowlauncher blender vscode figma windowsterminal obsidian git vcvrack vital choco tableplus starship bitwarden powertoys npm nodejs
 ```
 
