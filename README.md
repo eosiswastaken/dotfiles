@@ -54,7 +54,7 @@ stow .
 - Discord
 - VCV Rack, Bespoke Synth, Strudel.cc
 - Insomnia, DevDocs.io, TablePlus, VSCode
-- Starship, Neofetch
+- Starship
 - NVM, NodeJS, Python
 - CaLibre
 - Figma, Obsidian, OBS, Fliqlo
