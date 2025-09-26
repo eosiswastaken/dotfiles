@@ -104,6 +104,8 @@ sudo spctl --master-disable # allow non-notarized apps to be run
 mkdir ˜/Developer # for repos
 mkdir ˜/Books # for CaLibre library
 mkdir ˜/Notes # for Obsidian vault
+
+defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files in Finder
 ```
 
 <br>
@@ -122,3 +124,9 @@ mkdir ˜/Notes # for Obsidian vault
 - Key repeat rate
 - Setup symlinks (Obsidian/blog <-> ˜/Developer/blog & Obsidian/studies <-> ˜/Developer/notes)
 - Launch apps and configure them (if they don't have config files)
+- Remove Spotlight bloat (and add Library to excluded folders)
+- Turn off autocorrect in Keyboard options
+- Disable trackpad dictionnary lookup
+- Finder settings : Show filename extensions, Search the current folder, New Finder windows show mars
+- Finder view : show path bar
+
