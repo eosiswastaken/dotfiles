@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Ayu Light Bordered",
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "chat.disableAIFeatures": true,
+    "editor.fontFamily": "SFMono Nerd Font",
+    "editor.cursorBlinking": "phase",
+    "editor.fontSize": 13,
+    "editor.codeLens": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden"
+
+}
