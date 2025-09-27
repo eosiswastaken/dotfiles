@@ -2,5 +2,5 @@
 .gitignore
 .github
 README.md
-glance
 WINDOWS.md
+settings.json
