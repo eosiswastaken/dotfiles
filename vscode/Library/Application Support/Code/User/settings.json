@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Ayu Light Bordered",
     "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Ayu Light Bordered",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "editor.minimap.enabled": false,

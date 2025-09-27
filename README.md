@@ -59,6 +59,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - CaLibre
 - Figma, Obsidian, OBS, Fliqlo
 - Bitwarden
+- Sdr++
 
 <br>
 
@@ -114,7 +115,7 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 
 ⚙️ settings
 
-- Add AppleMusicDiscordRPC.app to login list
+- Add AppleMusicDiscordRPC.app and Glance.app to login list
 - Change Terminal.app font to SF Mono NF Patched
 - Hide dock, resize and small magnification
 - Disable auto-updates
