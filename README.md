@@ -41,7 +41,7 @@ then use stow to create symlinks
 
 
 ```bash
-stow .
+stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 ```
 
 <br>
