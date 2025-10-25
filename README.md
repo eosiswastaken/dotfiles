@@ -50,16 +50,17 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 📀 software
 
-- Orion Browser
+- Orion Browser, Firefox
 - Discord
 - VCV Rack, Bespoke Synth, Strudel.cc
-- Insomnia, DevDocs.io, TablePlus, VSCode
+- HTTPie, DevDocs.io, TablePlus, VSCode
 - Starship
 - NVM, NodeJS, Python
 - CaLibre
 - Figma, Obsidian, OBS, Fliqlo
 - Bitwarden
 - Sdr++
+- Blender, DaVinci, Godot
 
 <br>
 
@@ -71,6 +72,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - GrandPerspective
 - Onyx
 - Mos
+- youtube-dl, ffmpeg
 
 <br>
 
