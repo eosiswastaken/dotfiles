@@ -66,7 +66,6 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 - Homebrew
 - Ice
-- BatteryToolkit
 - HandMirror, Pika, CopyClip
 - mac-cli
 - GrandPerspective
