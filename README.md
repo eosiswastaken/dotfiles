@@ -72,6 +72,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - Onyx
 - Mos
 - youtube-dl, ffmpeg
+- rtl-sdr, rtl_433
 
 <br>
 
