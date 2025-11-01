@@ -57,9 +57,9 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - Starship
 - NVM, NodeJS, Python
 - CaLibre
-- Figma, Obsidian, OBS, Fliqlo
+- Graphite, Obsidian, OBS, Fliqlo
 - Bitwarden
-- Sdr++
+- Sdr++, SDRAngel
 - Blender, DaVinci, Godot
 
 <br>
