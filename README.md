@@ -69,6 +69,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - HandMirror, Pika, CopyClip
 - mac-cli
 - GrandPerspective
+- AppCleaner
 - Onyx
 - Mos
 - youtube-dl, ffmpeg
