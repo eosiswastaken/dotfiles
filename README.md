@@ -52,7 +52,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 - Orion Browser, Firefox
 - Discord
-- VCV Rack, Bespoke Synth, Strudel.cc
+- VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata
 - HTTPie, DevDocs.io, TablePlus, VSCode
 - Starship
 - NVM, NodeJS, Python
@@ -61,6 +61,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - Bitwarden
 - Sdr++, SDRAngel, Anki
 - Blender, DaVinci, Godot
+- Orange
 
 <br>
 
@@ -70,7 +71,6 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - mac-cli
 - GrandPerspective
 - AppCleaner
-- Onyx
 - Mos
 - youtube-dl, ffmpeg
 - rtl-sdr, rtl_433
