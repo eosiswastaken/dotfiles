@@ -59,8 +59,8 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - CaLibre
 - Graphite, Obsidian, OBS, Fliqlo
 - Bitwarden
-- Sdr++, SDRAngel, Anki
-- Blender, DaVinci, Godot
+- Sdr++, SDRAngel
+- Blender, DaVinci, LDTK, Aseprite
 - Orange
 
 <br>
