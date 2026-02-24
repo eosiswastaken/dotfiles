@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-i use windows on my desktop computer (gaming), heres my config so I'll remember it when reinstalling windows in a year
+i use windows on my desktop computer (gaming), setup is made to be console-like
 
 more info ? use the `setup` command on my [personnal webpage](https://eosis.space)
 
@@ -19,10 +19,14 @@ more info ? use the `setup` command on my [personnal webpage](https://eosis.spac
 this is the list of software I use.
 
 ```bash
-steam voicemod firefox modrinth gog epicgames discord battlenet prism(mc) bitwarden
+steam firefox gog epicgames battlenet prism(mc) parsec autologon
 ```
 
 <br>
 
 ---
 
+ℹ️ Installation
+
+Install everything, setup Parsec and autologon, configure steam to launch in big picture at login, same for parsec.
+Then setup Wake-on-LAN
