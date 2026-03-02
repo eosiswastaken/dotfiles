@@ -53,7 +53,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - Orion Browser, Firefox
 - Discord
 - VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata
-- HTTPie, DevDocs.io, TablePlus, Zed
+- HTTPie, DevDocs.io, TablePlus, Zed, GitHub CLI
 - Starship
 - NVM, NodeJS, Python
 - CaLibre
