@@ -16,3 +16,5 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
+
+export ASEPRITE_HOME="$HOME/Downloads/Aseprite"

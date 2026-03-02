@@ -1,6 +1,5 @@
 {
   "workbench.activityBar.location": "top",
-  "workbench.colorTheme": "Ayu Dark Bordered",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "editor.minimap.enabled": false,
@@ -21,5 +20,7 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmPasteNative": false,
+  "git.ignoreRebaseWarning": true,
 }
