@@ -133,4 +133,5 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 - Disable trackpad dictionnary lookup
 - Finder settings : Show filename extensions, Search the current folder, New Finder windows show mars
 - Finder view : show path bar
+- Setup double SSH keys + ~/.ssh/config file
 
