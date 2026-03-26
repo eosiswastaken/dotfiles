@@ -74,6 +74,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - Mos
 - youtube-dl, ffmpeg
 - rtl-sdr, rtl_433
+- MacFUSE
 
 <br>
 
