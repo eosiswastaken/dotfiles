@@ -93,7 +93,7 @@ brew tap mhaeuser/mhaeuser # battery-toolkit
 
 brew cask install font-sf-mono-nerd-font
 
-brew install apple-music-discord-rpc stow entr tree git tlrc neofetch zsh-autosuggestions battery-toolkit font-sf-mono-nerd-font
+brew install apple-music-discord-rpc stow entr tree git tlrc neofetch zsh-autosuggestions battery-toolkit font-sf-mono-nerd-font typst
 ```
 
 <br>
