@@ -1,5 +1,5 @@
 server:
-   port: 1111
+  port: 1111
 
 branding:
   custom-footer: |
@@ -11,9 +11,6 @@ branding:
 #   positive-color: 61 66 44
 #   negative-color: 6 96 59
 #   contrast-mutliplier: 1.1
-
-
-
 
 pages:
   - name: home
@@ -189,6 +186,10 @@ pages:
               - UCzb-NWBPkkQzQrNB2AtDUoQ # pixelcadet
               - UCziZvuUPRxEnwRb2khwKh8g # Out Of Phase
               - UCznj32AM2r98hZfTxrRo9bQ # Clear Code
+              - UCaMlUU7RBGlzeAP6VK5QErQ # Alex Pettitt
+              - UCCZXaVC-x-3oknEZGq_1S8Q # Red Shed Records
+              - UC2e3STCVOsyu75posxi0Nxg # Silver Creek Audio
+              - UCVRJxkj1WHthTx1Z2b9WY6A # Offshore Audio
 
       - size: small
         widgets:

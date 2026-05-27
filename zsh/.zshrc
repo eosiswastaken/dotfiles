@@ -18,3 +18,4 @@ SAVEHIST=1000
 bindkey -e
 
 export ASEPRITE_HOME="$HOME/Downloads/Aseprite"
+export PATH="/opt/homebrew/bin:$PATH"
