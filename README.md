@@ -73,7 +73,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - AppCleaner
 - Mos
 - youtube-dl, ffmpeg
-- rtl-sdr, rtl_433
+- rtl-sdr, rtl_433, RumLogNG
 
 <br>
 
