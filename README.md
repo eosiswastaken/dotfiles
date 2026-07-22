@@ -52,16 +52,17 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 - Orion Browser, Firefox
 - Discord
-- VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata
+- VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata, Helm, REAPER, OP-Z, Splice Instrument
 - HTTPie, DevDocs.io, TablePlus, Zed, GitHub CLI
 - Starship
-- NVM, NodeJS, Python
+- NVM, NodeJS, Python, Docker
 - CaLibre
-- Graphite, Obsidian, OBS, Fliqlo
+- Graphite, Obsidian, OBS, Fliqlo, Figma
 - Bitwarden
 - Sdr++, SDRAngel
-- Blender, DaVinci, LDTK, Aseprite
-- Orange
+- Blender, DaVinci, LDTK, Aseprite, Godot
+- RumLogNG
+- Mixing Station, Companion Satellite, QLab, VLC
 
 <br>
 
@@ -72,6 +73,7 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 - GrandPerspective
 - AppCleaner
 - Mos
+- UTM
 - youtube-dl, ffmpeg
 - rtl-sdr, rtl_433, RumLogNG
 
@@ -134,4 +136,3 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 - Finder settings : Show filename extensions, Search the current folder, New Finder windows show mars
 - Finder view : show path bar
 - Setup double SSH keys + ~/.ssh/config file
-
