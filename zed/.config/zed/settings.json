@@ -55,7 +55,7 @@
   "formatter": "language_server",
   "format_on_save": "on",
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "Ayu Light",
     "dark": "Ayu Dark",
   },
