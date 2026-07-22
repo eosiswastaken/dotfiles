@@ -6,11 +6,18 @@ branding:
     <p></p>
 
 # theme:
-#   background-color: 0 0 16
-#   primary-color: 38 41 71
-#   positive-color: 61 66 44
-#   negative-color: 6 96 59
-#   contrast-mutliplier: 1.1
+#   light: true
+#   background-color: 220 23 95
+#   contrast-multiplier: 1.0
+#   primary-color: 220 91 54
+#   positive-color: 109 58 40
+#   negative-color: 347 87 44
+
+theme:
+  light: true
+  background-color: 0 0 95
+  primary-color: 0 0 10
+  negative-color: 0 90 50
 
 pages:
   - name: home
@@ -210,53 +217,3 @@ pages:
                 name: NVIDIA
               - symbol: AAPL
                 name: Apple
-
-          - type: custom-api
-            title: Nearby Aircraft
-            cache: 1m
-            url: https://opensky-network.org/api/states/all?lamin=43.44809&lomin=1.45751&lamax=43.23085&lomax=1.85714
-            template: |
-              <div class="opensky-aircraft-stats">
-                {{ $states := .JSON.Array "states" }}
-                {{ $statesCount := len $states }}
-
-                <div class="margin-block-2">
-                  <div class="size-h6">AIRCRAFT NEARBY: {{ $statesCount }} </div>
-                </div>
-
-                {{ if gt $statesCount 0 }}
-                  {{ $plane := index $states 0 }}
-                  {{ $callsign := $plane.String "1" }}
-                  {{ $icao24 := $plane.String "0" }}
-                  {{ $origin := $plane.String "2" }}
-                  {{ $onGround := $plane.Bool "8" }}
-
-                  <div class="margin-block-2">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                      <div>
-                        <div class="color-highlight size-h3">{{ if ne $callsign "" }}{{ $callsign }}{{ else }}{{ $icao24 }}{{ end }}</div>
-                        <div class="size-h6">CALLSIGN</div>
-                      </div>
-                      <div>
-                        <div class="color-highlight size-h3 text-truncate" style="max-width: 100%;">{{ if ne $origin "" }}{{ $origin }}{{ else }}-{{ end }}</div>
-                        <div class="size-h6">ORIGIN</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="margin-block-2">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                      <div>
-                        {{ $altitude := $plane.Float "7" }}
-                        <div class="color-highlight size-h3">{{ if and (not $onGround) ($altitude | ne 0.0) }}{{ $altitude | printf "%.0f" }}m{{ else }}-{{ end }}</div>
-                        <div class="size-h6">ALTITUDE</div>
-                      </div>
-                      <div>
-                        {{ $speed := $plane.Float "9" }}
-                        <div class="color-highlight size-h3">{{ if and (not $onGround) ($speed | ne 0.0) }}{{ $speed | printf "%.0f" }}m/s{{ else }}-{{ end }}</div>
-                        <div class="size-h6">SPEED</div>
-                      </div>
-                    </div>
-                  </div>
-                {{ end }}
-              </div>
