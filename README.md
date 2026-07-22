@@ -41,7 +41,7 @@ then use stow to create symlinks
 
 
 ```bash
-stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
+stow -t ~ MODULE (autostart, glance, zsh, zed)
 ```
 
 <br>
@@ -50,36 +50,22 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 📀 software
 
-- Orion Browser, Firefox
-- Discord
-- VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata, Helm, REAPER, OP-Z, Splice Instrument
-- HTTPie, DevDocs.io, TablePlus, Zed, GitHub CLI
-- Starship
-- NVM, NodeJS, Python, Docker
+- Safari, Firefox, Focus for Youtube
+- Discord, Obsidian, Bitwarden
+- VCV Rack, Bespoke Synth, Strudel.cc, Vital, Plugdata, REAPER, OP-Z, Splice, Splice Instrument
+- HTTPie, TablePlus, Zed, NodeJS (via nvm), Python
 - CaLibre
-- Graphite, Obsidian, OBS, Fliqlo, Figma
-- Bitwarden
-- Sdr++, SDRAngel
-- Blender, DaVinci, LDTK, Aseprite, Godot
-- RumLogNG
-- Mixing Station, Companion Satellite, QLab, VLC
+- Sdr++, RumLogNG, rtl_433, librtlsdr
+- Blender, Shotcut, LDTK, Libresprite, Godot, Figma, Graphite
+- Mixing Station, Companion Satellite, QLab, VLC, OBS
 
 <br>
 
 - Homebrew
-- Ice
 - HandMirror, Pika, CopyClip
-- mac-cli
 - GrandPerspective
 - AppCleaner
 - Mos
-- UTM
-- youtube-dl, ffmpeg
-- rtl-sdr, rtl_433, RumLogNG
-
-<br>
-
-- UnHook, React Dev Tools, uBlock Origin
 
 <br>
 
@@ -90,12 +76,19 @@ stow -t ~ MODULE (autostart, glance, neofetch, vscode, zsh)
 
 ```bash
 brew tap nextfire/tap # apple-music-discord-rpc
+brew trust nextfire/tap
 brew tap epk/epk # font-sf-mono-nerd-font
-brew tap mhaeuser/mhaeuser # battery-toolkit
+brew trust epk/epk
 
-brew cask install font-sf-mono-nerd-font
+brew install jq # required for later
 
-brew install apple-music-discord-rpc stow entr tree git tlrc neofetch zsh-autosuggestions battery-toolkit font-sf-mono-nerd-font typst
+brew install font-sf-mono-nerd-font
+
+brew install apple-music-discord-rpc stow tree git tlrc hyfetch zsh-autosuggestions typst nvm
+
+brew services start nextfire/tap/apple-music-discord-rpc
+mkdir ~/.nvm # nvm needs this folder
+nvm install 24 # make sure to have .zshrc loaded
 ```
 
 <br>
@@ -105,8 +98,6 @@ brew install apple-music-discord-rpc stow entr tree git tlrc neofetch zsh-autosu
 ℹ️ commands
 
 ```zsh
-sudo spctl --master-disable # allow non-notarized apps to be run
-
 mkdir ˜/Developer # for repos
 mkdir ˜/Books # for CaLibre library
 mkdir ˜/Notes # for Obsidian vault
@@ -125,10 +116,10 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 - Hide dock, resize and small magnification
 - Disable auto-updates
 - Trackpad speed + click force
-- Change name
+- Change name (sudo scutil --set ComputerName, HostName, LocalHostName)
 - Sleep settings, timings and screensaver
 - Key repeat rate
-- Setup symlinks (Obsidian/blog <-> ˜/Developer/blog & Obsidian/studies <-> ˜/Developer/notes)
+- Setup symlink (Obsidian/blog <-> ˜/Developer/blog)
 - Launch apps and configure them (if they don't have config files)
 - Remove Spotlight bloat (and add Library to excluded folders)
 - Turn off autocorrect in Keyboard options
@@ -136,3 +127,4 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 - Finder settings : Show filename extensions, Search the current folder, New Finder windows show mars
 - Finder view : show path bar
 - Setup double SSH keys + ~/.ssh/config file
+- Apply Notes folder icon
