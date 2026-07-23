@@ -84,7 +84,7 @@ brew install jq # required for later
 
 brew install font-sf-mono-nerd-font
 
-brew install apple-music-discord-rpc stow tree git tlrc hyfetch zsh-autosuggestions typst nvm
+brew install apple-music-discord-rpc stow tree git tlrc hyfetch zsh-autosuggestions nvm
 
 brew services start nextfire/tap/apple-music-discord-rpc
 mkdir ~/.nvm # nvm needs this folder
@@ -114,6 +114,7 @@ defaults write http://com.apple.finder AppleShowAllFiles YES # Show hidden files
 - Add AppleMusicDiscordRPC.app and Glance.app to login list
 - Change Terminal.app font to SF Mono NF Patched
 - Hide dock, resize and small magnification
+- Disable suggested apps in the dock
 - Disable auto-updates
 - Trackpad speed + click force
 - Change name (sudo scutil --set ComputerName, HostName, LocalHostName)
